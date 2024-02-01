@@ -3,6 +3,8 @@
         Label3.Visible = False
         Label4.Visible = False
         Label5.Visible = False
+        PictureBox1.Visible = True
+
     End Sub
 
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
