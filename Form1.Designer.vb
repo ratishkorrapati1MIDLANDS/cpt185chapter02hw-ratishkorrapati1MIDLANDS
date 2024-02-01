@@ -35,6 +35,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DarkOliveGreen
         Me.Label1.Location = New System.Drawing.Point(59, 41)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(209, 35)
@@ -82,26 +83,32 @@ Partial Class Form1
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.Honeydew
+        Me.Button1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(75, 144)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(170, 44)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "View Job Fair Details"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.Honeydew
+        Me.Button2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.OliveDrab
         Me.Button2.Location = New System.Drawing.Point(75, 368)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(170, 44)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Exit Window"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
